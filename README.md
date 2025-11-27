@@ -571,6 +571,11 @@ cd ~
 ```
 curl -LO https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/xx.x.x/besu-xx.x.x.tar.gz
 ```
+Verify the file.
+
+```
+sha256sum --check besu-25.11.0.tar.gz.sha256
+```
 
 Stop the Besu service.
 
